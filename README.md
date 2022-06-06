@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+# 콜버스랩 과제
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 개발 인원
 
-## Available Scripts
+- 1명 (이근영)
 
-In the project directory, you can run:
+## 개발 스킬
 
-### `npm start`
+- typescript
+- react.js
+- recoil
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 프로젝트 개발 과정
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 1. 기획 정리
 
-### `npm test`
+- 프로젝트의 목적과 최소 구현 및 최대 구현을 확인
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- routes 와 각 페이지 구조 작성
 
-### `npm run build`
+### 2. FIGMA 확인 및 팔레트 정리
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- FIGMA 확인하며 구현 단위 확인
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 생상, 글자 palette 없으면 생성.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3. 레포 생성
 
-### `npm run eject`
+- cra typescript template 으로 생성.
+- esLint, styleLint 설정
+- package.json 구성
+- palette에 맞게 mixin, styles constants 구성
+- routes 구조 설정
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 4. home 페이지 구현
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Figma
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[FIGMA](https://www.figma.com/file/qVLvXmYUDJ1UREefV36VOk/%EC%9E%90%EB%A6%AC%ED%86%A1-%EA%B3%BC%EC%A0%9C-%EC%A4%80%EB%B9%84?node-id=1%3A488)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 프로젝트 안내
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[NOTION](https://www.notion.so/leedocs/13e914ffecb94b75b9974073b41d7859)
