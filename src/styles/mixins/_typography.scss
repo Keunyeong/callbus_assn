@@ -1,0 +1,53 @@
+@mixin lineClamp($line, $lineHeight) {
+  /* stylelint-disable-next-line value-no-vendor-prefix */
+  display: -webkit-box;
+  height: #{$lineHeight * $line}px;
+  overflow: hidden;
+  word-break: break-all;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}
+
+@mixin head22() {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+@mixin head16() {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+}
+@mixin body14Light() {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+@mixin body14() {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+}
+@mixin body14Bold() {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+@mixin body12() {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+}
+@mixin body12Bold() {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+}
